@@ -7,7 +7,7 @@ Version control is a system that records changes to a file or set of files over 
 ### **S3 Versioning**
 
 - **Definition**: S3 versioning allows you to keep multiple versions of an object (file) in an Amazon S3 bucket. This helps in protecting data from accidental deletion or overwriting.
-- **Use Case**: In case of accidental deletions, you can retrieve the latest or previous versions of objects.
+- **Use Case**: In case of accidental deletions, you can retrieve the latest or previous versions of objects
 
 ### **Normal Version Control (Git)**
 
