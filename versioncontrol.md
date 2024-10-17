@@ -122,7 +122,7 @@ graph TD;
   G --> H[Deploy to Production];
 ```
 
-### 3.  **Steps to Create an SSH Key for GitHub**
+# **Steps to Create an SSH Key for GitHub**
 
 1. **Open Git Bash**:
    - If you don't have Git Bash installed, [download and install it from here](https://git-scm.com/).
