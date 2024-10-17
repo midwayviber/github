@@ -156,4 +156,5 @@ graph TD;
    - Go to [GitHub SSH Settings](https://github.com/settings/keys) to paste it under "New SSH key".
 
 
+![image](https://github.com/user-attachments/assets/e59ce3ad-0d54-4fe8-adfc-9bfc005c4341)
 
