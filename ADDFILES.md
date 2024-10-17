@@ -85,6 +85,7 @@
 
 ---
 
+![image](https://github.com/user-attachments/assets/0e0128e0-9471-416a-917f-15d7cf87336a)
 
 ## 2.Working Directory to Staging Area:
 
@@ -117,3 +118,6 @@
 - **Description**: Shows the commit history of the local repository.
 
 ---
+
+![image](https://github.com/user-attachments/assets/56de0684-df8e-480c-9660-b26facb8076c)
+
