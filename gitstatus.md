@@ -72,7 +72,7 @@ To get a copy of the repository onto your local machine, you'll need to use the 
 
   - If everything is correct, you should see a `.git` file at the end of the list, which means everything you do will be tracked.
 
-![image](https://github.com/user-attachments/assets/894939d6-4d1e-442d-ab41-17c3f783d785)
+   ![image](https://github.com/user-attachments/assets/894939d6-4d1e-442d-ab41-17c3f783d785)
 
 
 1. **Update the Repository**:
