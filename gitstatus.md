@@ -41,8 +41,6 @@ To get a copy of the repository onto your local machine, you'll need to use the 
 
 - You should find a new folder with the same name as the repository you cloned, containing all the project files.
 
-  ![image](https://github.com/user-attachments/assets/28f9cf52-3844-4a2b-b824-e84132255db4)
-
 ---
 
 ### **Step 4: Basic Git Commands After Cloning**
@@ -54,7 +52,8 @@ To get a copy of the repository onto your local machine, you'll need to use the 
      ```bash
      cd new
      ```
-
+     ![image](https://github.com/user-attachments/assets/aed1b23a-6e18-4c31-99fd-1accbcd480fe)
+     
    - Now, check the status of your cloned repository:
 
      ```bash
@@ -63,7 +62,20 @@ To get a copy of the repository onto your local machine, you'll need to use the 
 
    - If everything is correct, it should say `On branch main` or `On branch master`.
 
-2. **Update the Repository**:
+     ![image](https://github.com/user-attachments/assets/4491c6aa-7c97-4500-8811-fb35ba81fedd)
+  
+   - Now, check if everythign is properly working : 
+
+     ```bash
+     ls -la
+     ```
+
+  - If everything is correct, you should see a `.git` file at the end of the list, which means everything you do will be tracked.
+
+![image](https://github.com/user-attachments/assets/894939d6-4d1e-442d-ab41-17c3f783d785)
+
+
+1. **Update the Repository**:
 
    - If the repository is updated by other developers, you can pull the latest changes using:
 
@@ -71,7 +83,7 @@ To get a copy of the repository onto your local machine, you'll need to use the 
      git pull
      ```
 
-3. **Adding Changes**:
+2. **Adding Changes**:
 
    - After making changes to the repository, you can add those changes to the staging area:
 
@@ -79,7 +91,7 @@ To get a copy of the repository onto your local machine, you'll need to use the 
      git add .
      ```
 
-4. **Committing Changes**:
+3. **Committing Changes**:
 
    - To commit the changes with a message:
 
@@ -87,7 +99,7 @@ To get a copy of the repository onto your local machine, you'll need to use the 
      git commit -m "Your commit message"
      ```
 
-5. **Pushing Changes to the Remote Repository**:
+4. **Pushing Changes to the Remote Repository**:
 
    - Once changes are committed, you can push them to the remote repository using:
 
