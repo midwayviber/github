@@ -122,9 +122,38 @@ graph TD;
   G --> H[Deploy to Production];
 ```
 
----
+### 3.  **Steps to Create an SSH Key for GitHub**
 
-## Additional Notes:
+1. **Open Git Bash**:
+   - If you don't have Git Bash installed, [download and install it from here](https://git-scm.com/).
+  
+2. **Generate SSH Key**:
+   - In Git Bash, enter the following command:
+     ```bash
+     ssh-keygen -t rsa -b 4096 -C "midwayviber9@gmail.com"
+     ```
+   - This command generates a new SSH key using the RSA encryption algorithm, with a 4096-bit key for enhanced security.
 
-- **Authentication**: Ensure SSH authentication is set up for seamless access to your remote repositories.
-- **Different Modules**: In large projects, different teams handle various modules, such as the **payment gateway** or **user management**. All these modules are integrated before the final product launch.
+3. **Save Key**:
+   - When prompted to "Enter a file in which to save the key," simply press `Enter` to accept the default location (typically `/home/your_user/.ssh/id_rsa` on Linux or MacOS or `C:/Users/your_user/.ssh/id_rsa` on Windows).
+
+4. **Set Passphrase** (Optional):
+   - If you'd like extra security, you can enter a passphrase, or just press `Enter` twice to skip this step and proceed with the default settings.
+
+5. **Key Generation Complete**:
+   - Once complete, you should see a message confirming the generation of the SSH key, similar to the image below:
+   
+   ![image](https://github.com/user-attachments/assets/7f9cf523-3844-4a2b-b824-e84132255db4)
+
+6. **Add SSH Key to GitHub**:
+   - After generating the key, you will need to copy the public key and add it to your GitHub account.
+   - Use this command to display your newly created public key:
+     ```bash
+     cat ~/.ssh/id_rsa.pub
+     ```
+   - On Windows, navigate to your `C:/Users/your_user/.ssh/` directory to find your SSH keys.
+   - Copy the content of the `id_rsa.pub` file.
+   - Go to [GitHub SSH Settings](https://github.com/settings/keys) to paste it under "New SSH key".
+
+
+
